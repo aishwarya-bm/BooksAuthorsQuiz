@@ -68,7 +68,7 @@ function playGame()
   }
 }
 var username = readlinesync.question(chalk.black.bgGreen("Welcome to the Books n Authors quiz!!! \nPlease tell us your name\n"))
-console.log(chalk.red("Hi ",chalk.green(username), ", lets check the rules before we begin the game."))
-console.log(chalk.red("Lets play a fun game where you have to find the author of books.\n1.The correct answer will give you 5 points.\n2.The wrong answer will give you 0 points.\n3.You can answer with the choice as a/b/c/d or A/B/C/D.\nLets begin the fun!!!"));
+console.log(chalk.bold.red("Hi ",chalk.green(username), ", lets check the rules before we begin the game."))
+console.log(chalk.bold.red("Lets play a fun game where you have to find the author of books.\n1.The correct answer will give you 5 points.\n2.The wrong answer will give you 0 points.\n3.You can answer with the choice as a/b/c/d or A/B/C/D.\nLets begin the fun!!!"));
 console.log(chalk.yellow("**************************"));
 playGame();
